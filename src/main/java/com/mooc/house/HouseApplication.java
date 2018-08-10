@@ -9,7 +9,10 @@ import org.springframework.scheduling.annotation.EnableAsync;
 @MapperScan("com.mooc.house.mapper")
 @EnableAsync
 public class HouseApplication {
-
+    /**
+     * git 代码的提交修改
+     * @param args
+     */
     public static void main(String[] args) {
         SpringApplication.run(HouseApplication.class, args);
     }
